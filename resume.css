@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 12pt;
+    background:linear-gradient(to top, rgb(143, 99, 99), white);
+}
+#left_side{
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.5em;
+}
+#right_side{
+    border-left: black solid 1px;
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.5em;
+}
+h1,
+h2{
+    text-align: center;
+}
+h2{
+    position: relative; top: 15px;
+    border-bottom: black solid 1px;
+}
+#title{
+    text-align: center;
+    font-size: 10px;
+}
+<style>
+    body {
+        background: green;
+    }
+ 
+
+  
+ 
